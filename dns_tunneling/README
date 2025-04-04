@@ -1,0 +1,4 @@
+# This exercise aims at decoding the data packets extracted by a hypothetical attacker using a DNS tunnel
+The dns packets were captured by wireshark in a pcap file
+The useful payloads hidden behind these dns packets were filtred out using a simple strings command on the pcap file
+The code extract and decode (base64) the packets and reveal a private SSH key was extracted
